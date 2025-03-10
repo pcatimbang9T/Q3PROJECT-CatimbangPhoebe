@@ -1,0 +1,133 @@
+
+body {
+  background: url(https://wallpapercave.com/wp/wp4313180.jpg);
+  text-align: center;
+}
+
+details {
+  background-color: lightblue;
+  border-radius: 15px;
+}
+
+
+#footer {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#title {
+  text-align: center;
+}
+
+#image {
+  width: 100%;
+}
+
+#body {
+  background-color: royalblue;
+}
+
+#element-class {
+  overflow: auto;
+  scrollbar-width: none;
+}
+
+
+hr {
+  background-color: blue;
+}
+
+#main {
+  background-color: deepskyblue;
+  border-radius: 12px;
+}
+
+#submit, #ticketprice, #printticket, #onemore {
+  color: blue;
+  background-color: skyblue;
+}
+
+#details {
+  text-align: center;
+}
+
+#main2 {
+  background-color: skyblue;
+  border-radius: 12px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: gold;
+}
+
+img {
+    width: 550px;
+}
+
+
+.flex-container-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container-2 {
+  display: flex;
+  justify-content: center;
+}
+
+
+.container-1, .container-2{
+  background-color: #34B3F1;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 20px; 
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.container {
+  text-align: center;
+    width: 100%;
+    max-width: 100;
+    margin: 50px auto;
+    padding: 20px;
+    background: silver;
+    border-radius: 12px;
+}
+
+button {
+  border: none;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    background: orange;
+    color: firebrick;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+button:hover {
+    background: lightyellow;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+
